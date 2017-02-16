@@ -6,7 +6,7 @@
 #    By: rmonnier <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/03 10:17:46 by rmonnier          #+#    #+#              #
-#    Updated: 2017/02/09 17:56:20 by rmonnier         ###   ########.fr        #
+#    Updated: 2017/02/15 18:57:13 by rmonnier         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -121,12 +121,11 @@ $(NAME): $(OBJ) $(OBJ_PF)
 	ar rc $(NAME) $(OBJ) $(OBJ_PF)
 	ranlib $(NAME)
 
+all: $(NAME)
+
 $(OBJ_PATH)%.o: $(SRCS_PATH)%.c
 	@mkdir -p obj
 	gcc -c $(FLAG) -I $(INC) $< -o $@
-
-all: $(NAME)
-
 
 clean:
 	/bin/rm -f $(OBJ) $(OBJ_PF)

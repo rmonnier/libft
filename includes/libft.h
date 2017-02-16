@@ -6,7 +6,7 @@
 /*   By: rmonnier <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/03 15:12:13 by rmonnier          #+#    #+#             */
-/*   Updated: 2016/12/22 15:21:33 by rmonnier         ###   ########.fr       */
+/*   Updated: 2017/02/15 19:20:25 by rmonnier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -101,5 +101,6 @@ void					ft_swap(int *a, int *b);
 int						ft_toupper(int c);
 int						ft_tolower(int c);
 int						get_next_line(const int fd, char **line);
+int						ft_printf(const char *format, ...);
 
 #endif
