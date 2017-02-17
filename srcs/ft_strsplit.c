@@ -48,7 +48,7 @@ char			**ft_strsplit(char const *s, char c)
 		j = 0;
 		while (*s == c)
 			s++;
-		while (s[j] != c)
+		while (s[j] != c && s[j])
 			j++;
 		output[i] = ft_strndup(s, j);
 		i++;
