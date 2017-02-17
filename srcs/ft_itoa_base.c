@@ -57,7 +57,6 @@ char			*ft_itoa_base(int value, int base)
 		itoa[0] = '-';
 	else if (value > 0)
 		value = -value;
-	itoa[size] = '\0';
 	fill_str_itoa_base(value, base, itoa, size - 1);
 	return (itoa);
 }

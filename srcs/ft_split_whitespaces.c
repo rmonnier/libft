@@ -47,7 +47,7 @@ char		**ft_split_whitespaces(char *str)
 		j = 0;
 		while (ft_iswhite(*str))
 			str++;
-		while (!ft_iswhite(str[j]))
+		while (!ft_iswhite(str[j]) && str[j])
 			j++;
 		output[i] = ft_strndup(str, j);
 		i++;
