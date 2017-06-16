@@ -8,7 +8,8 @@ Rewrite of many various function from C standard library.
 
 Get strong skills in low level development language.
 
-## Documentation
+## Functions details
+
 
 Libc functions | Additional functions | Bonus Functions |
 :----------- | :-----------: | :-----------: |
