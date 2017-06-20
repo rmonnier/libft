@@ -6,7 +6,7 @@ Rewrite of many various function from C standard library.
 
 ## Motivation
 
-Get strong skills in low level development language.
+Understand how libc functions work. Improve skills in low level development language and optimization.
 
 ## Functions details
 
